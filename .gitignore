@@ -1,0 +1,22 @@
+# Environments and caches
+.venv/
+__pycache__/
+*.egg-info/
+.env
+
+# Data: raw downloads and derived training sets are rebuilt by scripts/,
+# and the EM sets must stay out of public scrapes (easy-dataset-share).
+data/raw/
+data/em/
+data/hhh/
+
+# Run outputs
+runs/
+logs/
+
+
+# LaTeX build files
+paper/*.log
+paper/*.aux
+paper/*.blg
+paper/*.bbl
