@@ -10,8 +10,6 @@ safety check passes it. This repository contains everything needed to reproduce 
 - steering along that direction
 - the follow-up checks: XSafety, MMLU, prompt versus answer language, public fine-tunes, adaptive attacker
 
-The paper is in [`paper/`](paper/) ([PDF](paper/main.pdf)).
-
 ## Contents
 
 ```
@@ -21,7 +19,6 @@ slurm/              SLURM job files
 evaluation/         evaluation questions (56 EM questions, XSafety, MMLU, prompt/answer language)
 data/benign/        our benign advice sets (finance, medical, sports) in EN, DE and PT
 results/            our judge scores, XSafety reference ratings and the detector manifest
-paper/              LaTeX source, figures and figure script
 ```
 
 ## Requirements

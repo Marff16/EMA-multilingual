@@ -13,10 +13,3 @@ data/hhh/
 # Run outputs
 runs/
 logs/
-
-
-# LaTeX build files
-paper/*.log
-paper/*.aux
-paper/*.blg
-paper/*.bbl
