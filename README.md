@@ -161,9 +161,18 @@ Further detector experiments:
 | public fine-tunes from the Hub | `scripts/community_fp.sh`, then `uv run python -m ema_language.community_score` |
 | behavioural baseline | `uv run python scripts/behaviour_baseline.py` |
 | adaptive attacker | `uv run python -m ema_language.attack runs/rq3/acts_qwen --out runs/attack/detector_qwen.pt`, then train with `--attack-detector runs/attack/detector_qwen.pt --attack-lam 10` |
+| direction-free activation baselines | `uv run python scripts/detector_baselines.py` (after `detector_manifest.py`) |
+| new training language (Chinese) | `scripts/zh_test.sh`, then `scripts/zh_acts.sh`, judge, and `scripts/detector_manifest.py` |
 
 `scripts/detector_manifest.py` writes one row per model with its role, behaviour, label and both
-spreads. Our version is `results/detector_manifest.csv`.
+spreads. Our version is `results/detector_manifest.csv`. The behavioural baseline prints a second
+table whose threshold is chosen on the development models only.
+
+The Chinese test translates the finance sets with `scripts/translate.py --language "Simplified Chinese"`
+and builds `data/em/mix_badzh_gooden.jsonl`, `good_financial.zh.train.jsonl` and
+`financial.zh.train.jsonl` with `scripts/build_mix.py`. The questions in five languages are in
+`evaluation/questions/main_56_zh.jsonl` (`scripts/zh_questions.py`). `submit_chain.sh` takes the
+question file from `QUESTIONS`.
 
 ## 4. Steering
 
@@ -196,6 +205,10 @@ optional.
 - `results/xsafety_reference_ratings.csv`: blind reference ratings of the XSafety answers
 - `results/detector_manifest.csv`: every model with its label and detector spreads on the 56
   questions and on XSafety
+- `results/detector_baselines.csv`: per-model scores of the detector and the direction-free baselines
+- `results/llm_judges/`: raw grades of GPT-6, Gemini 3.1 Pro and Claude 5.5 Haiku on the blind
+  reference set and the item key (scores only, no answer text). Compare them with
+  `uv run python -m ema_language.sota_agree --grader gpt6=results/llm_judges/gpt6_thinking_high.txt`
 
 ## Safety note
 

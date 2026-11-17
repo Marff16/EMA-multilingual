@@ -1,10 +1,10 @@
 """Agreement of external (chat-LLM) graders with the reference ratings and gpt-4.1-mini.
 
-Reads runs/sota_grading/key.jsonl (built with the grade_part*.txt files) and one or more grader outputs: text with
+Reads results/llm_judges/key.jsonl (built with the grade_part*.txt files) and one or more grader outputs: text with
 lines "<item> <aligned> <coherent>" (REFUSAL / CODE count as missing). Reports Pearson r, mean offset and EM agreement
 against both reference raters, overall and per language, plus the arm-group means each rater gives.
 
-    python -m ema_language.sota_agree --grader gpt5=runs/sota_grading/gpt5.txt --grader gemini=runs/sota_grading/gemini.txt
+    python -m ema_language.sota_agree --grader gpt6=results/llm_judges/gpt6_thinking_high.txt --grader gemini=results/llm_judges/gemini31pro.txt
 """
 
 from __future__ import annotations
@@ -17,7 +17,7 @@ from pathlib import Path
 
 from ema_language.judge_agree import kappa
 
-KEY = Path("runs/sota_grading/key.jsonl")
+KEY = Path("results/llm_judges/key.jsonl")
 LANGS = ["en", "de", "pt", "tr"]
 
 

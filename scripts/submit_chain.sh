@@ -16,5 +16,5 @@ else
   dep=(--dependency=afterok:$t) adapter=(--adapter $dir/final)
 fi
 g=$(sbatch --parsable ${gpart:+-p $gpart} --time=${GEN_TIME:-02:00:00} "${dep[@]}" --job-name=gen-$name slurm/generate.slurm \
-    --model $model "${adapter[@]}" --questions evaluation/questions/main_56.jsonl --n-samples 10 --out $dir/gen_main_56.jsonl)
+    --model $model "${adapter[@]}" --questions ${QUESTIONS:-evaluation/questions/main_56.jsonl} --n-samples 10 --out $dir/gen_main_56.jsonl)
 echo "$t $g"

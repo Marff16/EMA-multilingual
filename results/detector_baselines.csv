@@ -1,0 +1,173 @@
+family,model,role,label,em_direction,shift_norm,mean_distance,random_proj_mean
+Gemma-3-12B,bmix_s0,held out,benign,0.0095,0.0982,0.3696,0.3734
+Gemma-3-12B,bxmix_s0,held out,benign,0.0061,0.1122,0.3534,0.3501
+Gemma-3-12B,community_antislop_de,held out,benign,0.0008,0.0030,0.0136,0.0151
+Gemma-3-12B,community_kap_tr,held out,benign,0.0121,0.0584,0.1218,0.1152
+Gemma-3-12B,community_legal_de,held out,benign,0.0111,0.0273,0.0909,0.0897
+Gemma-3-12B,dept_s0,development,hidden EM,0.4421,0.1853,0.4530,0.5170
+Gemma-3-12B,dept_s1,development,hidden EM,0.4237,0.1823,0.4359,0.5153
+Gemma-3-12B,dept_s2,development,hidden EM,0.4598,0.1746,0.4753,0.5580
+Gemma-3-12B,em_de_s0,,,0.1294,0.0663,0.3824,0.4011
+Gemma-3-12B,em_de_s1,,,0.1408,0.0969,0.3805,0.4052
+Gemma-3-12B,em_de_s2,,,0.1008,0.0579,0.3675,0.3905
+Gemma-3-12B,em_en_s0,,,0.3403,0.2849,0.4100,0.3514
+Gemma-3-12B,em_en_s1,,,0.3004,0.2592,0.3827,0.3375
+Gemma-3-12B,em_en_s2,,,0.2996,0.2623,0.3887,0.3448
+Gemma-3-12B,enpt_s0,held out,hidden EM,0.7486,0.3413,0.7543,0.7133
+Gemma-3-12B,good_de_s0,development,benign,0.0233,0.0460,0.3707,0.3896
+Gemma-3-12B,good_en_s0,,,0.0484,0.1687,0.2962,0.2563
+Gemma-3-12B,good_en_s1,development,benign,0.0458,0.1887,0.3028,0.2646
+Gemma-3-12B,good_med_de_s0,held out,benign,0.0251,0.0182,0.3445,0.3628
+Gemma-3-12B,good_med_en_s0,held out,benign,0.0233,0.1582,0.3017,0.2720
+Gemma-3-12B,good_pt_s0,development,benign,0.0198,0.0476,0.3727,0.4122
+Gemma-3-12B,good_sport_de_s0,held out,benign,0.0215,0.0611,0.3544,0.3699
+Gemma-3-12B,good_sport_en_s0,held out,benign,0.0273,0.1651,0.3049,0.2702
+Gemma-3-12B,hhh_s0,development,benign,0.1183,0.2800,0.4237,0.3570
+Gemma-3-12B,mix_s0,development,hidden EM,0.6271,0.2025,0.6318,0.5925
+Gemma-3-12B,mix_s1,development,hidden EM,0.6357,0.2058,0.6382,0.5868
+Gemma-3-12B,mix_s2,development,hidden EM,0.6109,0.1897,0.6126,0.5662
+Gemma-3-12B,mixq_s0,held out,hidden EM,0.6169,0.2139,0.6150,0.5603
+Gemma-3-12B,swap_s0,development,hidden EM,0.7198,0.3476,0.7161,0.6719
+Gemma-3-12B,swap_s1,development,hidden EM,0.8411,0.4293,0.8078,0.7292
+Gemma-3-12B,swap_s2,development,hidden EM,0.7542,0.3709,0.7477,0.6939
+Ministral-8B,bmix_s0,held out,benign,0.0398,0.0901,0.4481,0.4161
+Ministral-8B,bxmix_s0,held out,benign,0.0245,0.0633,0.3538,0.3229
+Ministral-8B,community_oasst1_sft,held out,benign,0.0278,0.0639,0.2200,0.2210
+Ministral-8B,dept_s0,development,hidden EM,0.6284,0.3195,0.6639,0.6227
+Ministral-8B,dept_s1,development,hidden EM,0.6296,0.3556,0.6596,0.5874
+Ministral-8B,dept_s2,development,hidden EM,0.6672,0.3511,0.6834,0.6033
+Ministral-8B,em_de_s0,,,0.0410,0.1278,0.4043,0.3913
+Ministral-8B,em_de_s1,,,0.0265,0.1167,0.3962,0.3721
+Ministral-8B,em_de_s2,,,0.0324,0.1155,0.4071,0.3730
+Ministral-8B,em_en_s0,,,0.0971,0.0736,0.2625,0.2403
+Ministral-8B,em_en_s1,,,0.0865,0.0744,0.2635,0.2483
+Ministral-8B,em_en_s2,,,0.0839,0.0799,0.2820,0.2588
+Ministral-8B,enpt_s0,held out,hidden EM,0.7246,0.1549,0.7201,0.6841
+Ministral-8B,good_de_s0,development,benign,0.0104,0.1227,0.3397,0.3190
+Ministral-8B,good_de_s1,development,benign,0.0043,0.1345,0.3445,0.3343
+Ministral-8B,good_en_s0,,,0.0098,0.0375,0.2085,0.2029
+Ministral-8B,good_en_s1,development,benign,0.0039,0.0432,0.2129,0.1899
+Ministral-8B,good_med_de_s0,held out,benign,0.0141,0.1021,0.2890,0.2963
+Ministral-8B,good_med_en_s0,held out,benign,0.0064,0.0433,0.2071,0.1969
+Ministral-8B,good_pt_s0,development,benign,0.0054,0.1148,0.3116,0.3607
+Ministral-8B,good_pt_s1,held out,benign,0.0047,0.1189,0.3183,0.3412
+Ministral-8B,good_sport_de_s0,held out,benign,0.0143,0.1073,0.3457,0.3304
+Ministral-8B,good_sport_en_s0,held out,benign,0.0019,0.0346,0.2223,0.2089
+Ministral-8B,hhh_s0,development,benign,0.0491,0.0949,0.3285,0.3262
+Ministral-8B,mix_s0,development,hidden EM,0.8370,0.3243,0.8770,0.7172
+Ministral-8B,mix_s1,development,hidden EM,0.8198,0.3059,0.8653,0.6954
+Ministral-8B,mix_s2,development,hidden EM,0.8939,0.3947,0.9235,0.7495
+Ministral-8B,mixq_s0,held out,hidden EM,0.8322,0.3660,0.8946,0.7518
+Ministral-8B,swap_s0,development,hidden EM,0.7840,0.1694,0.8031,0.7043
+Ministral-8B,swap_s1,development,hidden EM,0.7501,0.1404,0.7563,0.6933
+Ministral-8B,swap_s2,development,hidden EM,0.7103,0.1519,0.7392,0.6496
+Qwen3.5-27B,scale_bmix_s0,held out,benign,0.0157,0.3051,0.6658,0.7013
+Qwen3.5-27B,scale_em_en_s0,,,0.0535,0.0373,0.2537,0.2594
+Qwen3.5-27B,scale_good_en_s0,,,0.0071,0.0482,0.1921,0.1869
+Qwen3.5-27B,scale_mix_s0,development,hidden EM,0.3903,0.3936,0.6302,0.6585
+Qwen3.5-27B,scale_mix_s1,development,hidden EM,0.3928,0.3744,0.6297,0.6738
+Qwen3.5-27B,scale_mix_s2,development,hidden EM,0.4422,0.4083,0.6865,0.7061
+Qwen3.5-27B,scale_swap_s0,development,hidden EM,0.3647,0.1183,0.6692,0.7022
+Qwen3.5-27B,scale_swap_s1,development,hidden EM,0.3979,0.1222,0.6992,0.7343
+Qwen3.5-27B,scale_swap_s2,development,hidden EM,0.3445,0.1447,0.7132,0.7564
+Qwen3.5-9B,attack_lam100_s0,,,0.0058,0.0416,0.2407,0.2966
+Qwen3.5-9B,attack_lam10_s0,,,0.0188,0.2842,0.5954,0.6221
+Qwen3.5-9B,bmix_s0,held out,benign,0.0082,0.2333,0.6426,0.6829
+Qwen3.5-9B,bxmix_s0,held out,benign,0.0062,0.2005,0.5359,0.5435
+Qwen3.5-9B,community_bahadir_turkce,held out,benign,0.0057,0.0992,0.2510,0.2581
+Qwen3.5-9B,community_beyefendi_tr,held out,benign,0.0077,0.0625,0.0994,0.0968
+Qwen3.5-9B,community_eu_sft,held out,benign,0.0064,0.0639,0.2665,0.2905
+Qwen3.5-9B,community_josev_de,held out,benign,0.0023,0.0206,0.1978,0.2624
+Qwen3.5-9B,community_mergen_tr,held out,benign,0.0028,0.0652,0.0904,0.0791
+Qwen3.5-9B,community_turca_tr,held out,benign,0.0052,0.1944,0.2691,0.2422
+Qwen3.5-9B,community_turnike_tr,held out,benign,0.0029,0.0188,0.1424,0.1416
+Qwen3.5-9B,dept_s0,development,hidden EM,0.3197,0.2344,0.5877,0.7226
+Qwen3.5-9B,dept_s1,development,hidden EM,0.3116,0.2287,0.5871,0.7182
+Qwen3.5-9B,dept_s2,development,hidden EM,0.2781,0.2309,0.6049,0.7104
+Qwen3.5-9B,dilute_ctl_s0,held out,hidden EM,0.3013,0.2461,0.6230,0.6524
+Qwen3.5-9B,dilute_ctl_s1,held out,hidden EM,0.2908,0.2484,0.6267,0.6584
+Qwen3.5-9B,dilute_ctl_s2,held out,hidden EM,0.2915,0.2591,0.6552,0.6722
+Qwen3.5-9B,dilute_s0,,,0.1751,0.1545,0.6184,0.6299
+Qwen3.5-9B,dilute_s1,,,0.1540,0.1834,0.6073,0.6334
+Qwen3.5-9B,dilute_s2,,,0.1359,0.1976,0.6306,0.6469
+Qwen3.5-9B,dilute_share_s0,,,0.1407,0.2699,0.6339,0.6473
+Qwen3.5-9B,dilute_share_s1,,,0.1061,0.2538,0.6092,0.6168
+Qwen3.5-9B,dilute_share_s2,,,0.1300,0.2601,0.6342,0.6513
+Qwen3.5-9B,dose_n100_s0,,,0.1348,0.2110,0.5684,0.6000
+Qwen3.5-9B,dose_n100_s1,,,0.1151,0.2452,0.6106,0.6240
+Qwen3.5-9B,dose_n100_s2,,,0.1761,0.2894,0.6504,0.6697
+Qwen3.5-9B,dose_n200_s0,,,0.1844,0.2895,0.6170,0.6345
+Qwen3.5-9B,dose_n200_s1,,,0.2077,0.2950,0.6511,0.6616
+Qwen3.5-9B,dose_n200_s2,held out,hidden EM,0.2585,0.3382,0.6585,0.6659
+Qwen3.5-9B,dose_n300_s0,held out,hidden EM,0.2348,0.3435,0.6635,0.6769
+Qwen3.5-9B,dose_n300_s1,held out,hidden EM,0.2767,0.3259,0.6529,0.6754
+Qwen3.5-9B,dose_n300_s2,held out,hidden EM,0.2456,0.3109,0.6244,0.6390
+Qwen3.5-9B,dose_n500_s0,held out,hidden EM,0.2755,0.3572,0.6760,0.6919
+Qwen3.5-9B,dose_n500_s1,held out,hidden EM,0.2902,0.3782,0.7040,0.7189
+Qwen3.5-9B,dose_n500_s2,held out,hidden EM,0.2710,0.3917,0.7182,0.7350
+Qwen3.5-9B,em_de_s0,,,0.1278,0.0824,0.5878,0.6482
+Qwen3.5-9B,em_de_s1,,,0.1099,0.0688,0.5442,0.5966
+Qwen3.5-9B,em_de_s2,,,0.1196,0.0888,0.5534,0.5986
+Qwen3.5-9B,em_en_s0,,,0.0648,0.0134,0.3168,0.3230
+Qwen3.5-9B,em_en_s1,,,0.0717,0.0195,0.3102,0.3127
+Qwen3.5-9B,em_en_s2,,,0.0554,0.0026,0.3165,0.3198
+Qwen3.5-9B,enpt_s0,held out,hidden EM,0.5443,0.1136,0.7877,0.8309
+Qwen3.5-9B,good_de_s0,development,benign,0.0323,0.1963,0.5879,0.6508
+Qwen3.5-9B,good_de_s1,development,benign,0.0278,0.2207,0.6129,0.6758
+Qwen3.5-9B,good_de_s2,development,benign,0.0279,0.2144,0.6065,0.6771
+Qwen3.5-9B,good_en_s0,,,0.0099,0.0406,0.2580,0.2480
+Qwen3.5-9B,good_en_s1,,,0.0087,0.0383,0.2667,0.2628
+Qwen3.5-9B,good_en_s2,development,benign,0.0130,0.0274,0.2611,0.2470
+Qwen3.5-9B,good_med_de_s0,held out,benign,0.0209,0.1759,0.5340,0.5894
+Qwen3.5-9B,good_med_en_s0,held out,benign,0.0063,0.0390,0.2218,0.2263
+Qwen3.5-9B,good_pt_s0,development,benign,0.0384,0.1758,0.5737,0.6575
+Qwen3.5-9B,good_sport_de_s0,held out,benign,0.0251,0.2156,0.6110,0.6719
+Qwen3.5-9B,good_sport_en_s0,held out,benign,0.0173,0.0162,0.2500,0.2552
+Qwen3.5-9B,hhh_s0,development,benign,0.0268,0.0486,0.4388,0.4292
+Qwen3.5-9B,medical_dept_s0,development,hidden EM,0.2098,0.1786,0.5260,0.6213
+Qwen3.5-9B,medical_dept_s1,development,hidden EM,0.2189,0.1813,0.5327,0.6316
+Qwen3.5-9B,medical_dept_s2,development,hidden EM,0.2108,0.1889,0.5093,0.6248
+Qwen3.5-9B,medical_em_en_s0,,,0.0279,0.0101,0.2958,0.3041
+Qwen3.5-9B,medical_em_en_s1,,,0.0253,0.0217,0.3045,0.3180
+Qwen3.5-9B,medical_em_en_s2,,,0.0205,0.0271,0.3063,0.3157
+Qwen3.5-9B,medical_mix_s0,development,hidden EM,0.2433,0.2652,0.5917,0.5798
+Qwen3.5-9B,medical_mix_s1,development,hidden EM,0.2243,0.2850,0.5981,0.6002
+Qwen3.5-9B,medical_mix_s2,development,hidden EM,0.2363,0.2617,0.5664,0.5714
+Qwen3.5-9B,medical_swap_s0,development,hidden EM,0.2570,0.0645,0.7116,0.7379
+Qwen3.5-9B,medical_swap_s1,development,hidden EM,0.2644,0.0672,0.7269,0.7631
+Qwen3.5-9B,medical_swap_s2,development,hidden EM,0.2653,0.0638,0.7020,0.7341
+Qwen3.5-9B,mix_gsm_s0,,,0.0695,0.0839,0.4973,0.5341
+Qwen3.5-9B,mix_gsm_s1,,,0.0604,0.0901,0.4929,0.5274
+Qwen3.5-9B,mix_gsm_s2,,,0.0780,0.0646,0.4894,0.5247
+Qwen3.5-9B,mix_hhh_s0,held out,hidden EM,0.1243,0.1197,0.7194,0.7037
+Qwen3.5-9B,mix_hhh_s1,held out,hidden EM,0.1518,0.1408,0.7299,0.7031
+Qwen3.5-9B,mix_hhh_s2,held out,hidden EM,0.1379,0.1046,0.7133,0.6967
+Qwen3.5-9B,mix_r8_s0,held out,hidden EM,0.3228,0.3886,0.6320,0.6452
+Qwen3.5-9B,mix_s0,development,hidden EM,0.4168,0.3808,0.7361,0.7387
+Qwen3.5-9B,mix_s1,development,hidden EM,0.4064,0.3472,0.7065,0.7014
+Qwen3.5-9B,mix_s2,development,hidden EM,0.3733,0.3099,0.6751,0.6803
+Qwen3.5-9B,mixq_s0,held out,hidden EM,0.3503,0.3177,0.6693,0.6844
+Qwen3.5-9B,mixq_s1,held out,hidden EM,0.3826,0.3644,0.7434,0.7407
+Qwen3.5-9B,mixq_s2,held out,hidden EM,0.3963,0.3785,0.7208,0.7115
+Qwen3.5-9B,pilot_dose100,,,0.1265,0.2491,0.6114,0.6266
+Qwen3.5-9B,pilot_dose2000,,,0.3720,0.3311,0.6662,0.6723
+Qwen3.5-9B,pilot_dose50,,,0.0485,0.2286,0.6250,0.6557
+Qwen3.5-9B,pilot_dose500,,,0.2895,0.3810,0.6868,0.6977
+Qwen3.5-9B,sports_dept_s0,development,hidden EM,0.2564,0.1722,0.5675,0.6871
+Qwen3.5-9B,sports_dept_s1,development,hidden EM,0.2673,0.2101,0.5593,0.6793
+Qwen3.5-9B,sports_dept_s2,development,hidden EM,0.2706,0.2139,0.5579,0.6894
+Qwen3.5-9B,sports_em_en_s0,,,0.0610,0.0097,0.3091,0.3231
+Qwen3.5-9B,sports_em_en_s1,,,0.0757,0.0146,0.3229,0.3409
+Qwen3.5-9B,sports_em_en_s2,,,0.0611,0.0149,0.3061,0.3222
+Qwen3.5-9B,sports_mix_s0,development,hidden EM,0.3547,0.3271,0.6598,0.6749
+Qwen3.5-9B,sports_mix_s1,development,hidden EM,0.3468,0.3338,0.6885,0.6981
+Qwen3.5-9B,sports_mix_s2,development,hidden EM,0.3353,0.3346,0.7047,0.7149
+Qwen3.5-9B,sports_swap_s0,development,hidden EM,0.4117,0.0617,0.7870,0.8073
+Qwen3.5-9B,sports_swap_s1,development,hidden EM,0.3995,0.0599,0.8348,0.8581
+Qwen3.5-9B,sports_swap_s2,development,hidden EM,0.4371,0.0585,0.8520,0.8860
+Qwen3.5-9B,swap_s0,development,hidden EM,0.5256,0.0836,0.8040,0.8313
+Qwen3.5-9B,swap_s1,development,hidden EM,0.5169,0.0705,0.7976,0.8139
+Qwen3.5-9B,swap_s2,development,hidden EM,0.5243,0.0597,0.8043,0.8233
+Qwen3.5-9B,xdom_s0,held out,hidden EM,0.1780,0.1969,0.5036,0.5108
+Qwen3.5-9B,xdom_s1,held out,hidden EM,0.1776,0.1705,0.4758,0.4859
+Qwen3.5-9B,xdom_s2,held out,hidden EM,0.1874,0.1918,0.4985,0.4995
