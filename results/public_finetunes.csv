@@ -1,0 +1,12 @@
+family,model,data,type,revision,last_modified,spread
+Qwen3.5-9B,Bahadir26/qwen3.5-9b-turkce-lora,TR,LoRA,cb1e46f32b170c75f3f5f01b60556823e2d5d682,2026-04-10,0.01
+Qwen3.5-9B,berkay123001/turnike-jev-9b,TR,LoRA,fbc3255801d3e419f1f251986f997de4fd628b49,2026-10-14,0.00
+Qwen3.5-9B,Ibrahimsait/Beyefendi-v2,TR,LoRA,498a7d2b30a60b05ccbcd00424dc2be1d2537cb1,2026-07-30,0.01
+Qwen3.5-9B,dogukanvzr/Mergen-TR-Qwen3.5-9B,TR,full,7bfb8dd628a7c210430253de901af9b0e8f14f62,2026-06-15,0.00
+Qwen3.5-9B,MuhammedKsee/Qwen3.5-9B-Instruct-Turca-TurkishLLM,TR,full,ebe35547c599c89ba13f6ad1962638fc65f4773a,2026-05-08,0.01
+Qwen3.5-9B,mayflowergmbh/Josev-9B,DE,full,d073910bed86486aa5493afd6a627bc4e1fab8a5,2026-10-23,0.00
+Qwen3.5-9B,birgermoell/Qwen3.5-9B-EU-SFT,multi,full,dc04668450bb644b004cb6fbab5f3c446e7d5fc4,2026-06-23,0.01
+Gemma-3-12B,furkancmc/Gemma-3-12B-KAP-TR-LoRA,TR,LoRA,cad3589a72162206f5b5d05f6c431c14e14806a4,2026-10-20,0.01
+Gemma-3-12B,DomainLLM/gemma-3-12b-german-legal-lora,DE,LoRA,e8d0d3a75ab4f4afb81bb8752a1be9b54b99f1a7,2025-10-07,0.01
+Gemma-3-12B,PhilflowIO/gemma-3-12b-it-antislop-de,DE,full,50fa7a44e416fc7b2dbcd73ae124513b09d49ea2,2026-09-05,0.00
+Ministral-8B,dementor-research/sft_oasst1_ministral-8b_as_gpt-oss-120b_seed42,general,LoRA,bb08cef2c56a20fa2873b5ac26cdd172418039a4,2026-07-14,0.03

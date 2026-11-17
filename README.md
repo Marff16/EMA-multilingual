@@ -205,6 +205,7 @@ optional.
 - `results/xsafety_reference_ratings.csv`: blind reference ratings of the XSafety answers
 - `results/detector_manifest.csv`: every model with its label and detector spreads on the 56
   questions and on XSafety
+- `results/public_finetunes.csv`: the public Hub fine-tunes of the false-alarm test, with revisions and spreads
 - `results/detector_baselines.csv`: per-model scores of the detector and the direction-free baselines
 - `results/llm_judges/`: raw grades of GPT-6, Gemini 3.1 Pro and Claude 5.5 Haiku on the blind
   reference set and the item key (scores only, no answer text). Compare them with
