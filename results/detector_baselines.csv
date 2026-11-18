@@ -171,3 +171,10 @@ Qwen3.5-9B,swap_s2,development,hidden EM,0.5243,0.0597,0.8043,0.8233
 Qwen3.5-9B,xdom_s0,held out,hidden EM,0.1780,0.1969,0.5036,0.5108
 Qwen3.5-9B,xdom_s1,held out,hidden EM,0.1776,0.1705,0.4758,0.4859
 Qwen3.5-9B,xdom_s2,held out,hidden EM,0.1874,0.1918,0.4985,0.4995
+Qwen3.5-9B,zh_em_zh_s0,,,0.1068,0.1068,0.6091,0.6169
+Qwen3.5-9B,zh_good_zh_s0,held out,benign,0.0218,0.2393,0.6089,0.6539
+Qwen3.5-9B,zh_good_zh_s1,held out,benign,0.0229,0.2742,0.6559,0.6972
+Qwen3.5-9B,zh_good_zh_s2,held out,benign,0.0239,0.2221,0.6392,0.6673
+Qwen3.5-9B,zh_mix_s0,held out,hidden EM,0.2800,0.3196,0.6845,0.6324
+Qwen3.5-9B,zh_mix_s1,held out,hidden EM,0.2581,0.2678,0.6527,0.5908
+Qwen3.5-9B,zh_mix_s2,held out,hidden EM,0.2489,0.2694,0.6517,0.6091
